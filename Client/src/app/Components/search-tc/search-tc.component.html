@@ -1,0 +1,92 @@
+
+  
+  <div class="container">
+    <!-- <div class="row"> -->
+       <!-- <div class="col-md-6"> -->
+        <div class="logo">
+          <img src="https://rspsmtr.com/wp-content/uploads/2022/02/rsps_logo-removebg.png" height="120" >
+          <h2>Ramanlal Shorawala Public School</h2>
+          <h4 style="text-align: center;">Maholi Road , Mathura</h4>
+        </div>
+        <div class="card"  >
+            <div class=" card-header text-center">
+                <h1>Transfer Certificate </h1>
+
+            </div>
+            <form [formGroup]="searchForm" (ngSubmit)="search()" class="row">
+                
+              <div class="col-md-4 col-12" style="margin-bottom: 1rem;">
+                <label for="studentNAme" class="form-label">Student Name</label>
+                <input formControlName="studentNAme" type="text" class="form-control" id="studentNAme" >
+              </div>
+                  
+                 <div class="col-md-4 col-12" style="margin-bottom: 1rem;">
+                    <label for="admission_No" class="form-label">Admission No</label>
+                    <input formControlName="admission_No" type="text" class="form-control" id="admission_No" >
+                  </div>
+                 
+                 
+                  
+                  <div class="col-md-12"  style="margin-bottom: 1rem;">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                  </div>
+            </form>
+
+
+
+            <div style="margin-top: 2rem; margin-bottom: 2rem;" *ngIf="showTable">
+
+
+              <div class="row m-0 ">
+               
+             
+             
+              <div class="table-responsive" style="padding: 0 !important;">
+            
+            
+                <table datatable [dtOptions]="dtOptions" 
+                 class="table table-striped table-bordered table-sm row-border hover" >
+                
+                <thead>
+                <th>TC No</th>
+                <th>Admission No</th>
+                <th>Student Name </th>
+                <th>Father Name</th>
+                <th>Mother Name</th>
+                <th>Class</th>
+                <th>Session</th>
+                <th>DOB</th>
+                <th>TC Issue Date</th>
+                <th>TC </th>
+              </thead>
+              <tbody >
+                <tr>
+                  <td>{{getSearchStudent.TC_No}}</td>
+                  <td>{{getSearchStudent.admission_No}}</td>
+                  <td>{{getSearchStudent.studentNAme}}</td>
+                  <td>{{getSearchStudent.fatherName}}</td>
+                  <td>{{getSearchStudent.motherName}}</td>
+                  <td>{{getSearchStudent.class}}</td>
+                  <td>{{getSearchStudent.session}}</td>
+                  <td>{{getSearchStudent.DOB}}</td>
+                  <td>{{getSearchStudent.TC_Date}}</td>
+                  <td><span class="material-icons" style="color: red; cursor: pointer;;" (click)="download()">
+                    cloud_download
+                  </span></td>
+                 
+    
+                </tr>
+              </tbody>
+             
+            </table>
+            </div>
+            </div>
+     
+            
+            </div>
+        </div>
+       <!-- </div> -->
+    <!-- </div> -->
+  </div> 
+
+

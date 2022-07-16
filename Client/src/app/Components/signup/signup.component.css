@@ -1,0 +1,115 @@
+
+
+.card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    background: hsla(205,46%,30%,1);
+    background: linear-gradient(90deg,hsla(205,46%,30%,1)0%,hsla(260,29%,36%,1)100%);
+    
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+      
+}
+h1{
+    color: white;
+    font-size: 2rem;
+}
+label{
+    color: white;
+}
+button{
+    margin:0 auto;
+    display:block;
+    margin-top: 2rem;
+}
+p{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 4rem;
+    color: hsla(260,29%,36%,1);
+}
+
+@media screen and (max-width:768px) and (min-width:530px)
+{
+    p{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:529px) 
+{
+    
+    .card{
+        border: none;
+        width: 90%;
+        padding: 40px;
+        position: absolute;
+        background: hsla(205,46%,30%,1);
+        background: linear-gradient(90deg,hsla(205,46%,30%,1)0%,hsla(260,29%,36%,1)100%);
+        
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+          
+    } 
+}
+@media screen and (max-width:529px) and (min-width:441px)
+{
+    p{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:440px) and (min-width:301px)
+{
+    p{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:300px) and (min-width:200px)
+{
+    p{
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 7rem;
+    }
+}
+@media screen and (max-width:1270px)  and (min-width:1001px)
+{
+    p{
+        margin-top: 4rem;
+        font-size: 2rem;
+      }
+}
+@media screen and (max-width:1000px)  and (min-width:767px)
+{
+  .card{
+    width: 600px;
+
+  }
+  p{
+    margin-top: 19rem;
+  }
+}
+@media screen and (max-width:766px)  and (min-width:540px)
+{
+    p{
+        margin-top: 8rem;
+      }
+}
+@media screen and (max-width:539px)  and (min-width:401px)
+{
+    
+    p{
+        margin-top: 12rem;
+      }
+}
+@media screen and (max-width:400px)  
+{
+    p{
+        margin-top: 6rem;
+      }
+}

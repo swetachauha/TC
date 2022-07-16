@@ -1,0 +1,29 @@
+.row{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); */
+    /* margin-top: 4 rem; */
+    padding-bottom: .1rem;
+    /* border:1px solid rgba(128, 128, 128, 0.408); */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+}
+
+thead{
+    background-color: skyblue;
+}
+.flex{
+    margin:2rem 2rem -1rem 3rem;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding-top: 1rem;
+
+
+}
+i:hover{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transform: scale(1.2 ,1.2);
+    transition: 0s;
+}
+
+input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}

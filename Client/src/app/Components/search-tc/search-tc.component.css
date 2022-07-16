@@ -1,0 +1,196 @@
+
+    /* left: 50%;
+    top: 50%; */
+    /* -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+   .container{
+    height: fit-content;
+    overflow-x: hidden;
+   }
+
+.card{
+    border: none;
+    width: 1000px;
+    padding: 10px 40px 10px 40px;
+    /* position: absolute; */
+    background: hsla(205,46%,30%,1);
+    background: linear-gradient(90deg,hsla(205,46%,30%,1)0%,hsla(260,29%,36%,1)100%);
+           box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+    margin-bottom:2rem !important;
+    margin-top: 2.5rem;
+    /* left: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 25rem;    */
+     /* -webkit-transform: translate(-50%, -100%);
+     transform: translate(-50%, -50%); */
+    /* top:0;
+    bottom: 0;
+    left:0;
+    right: 0; */
+}
+.row{
+    display: flex;
+  justify-content: center;
+}
+.logo{
+    /* margin-top:2rem; */
+   text-align: center;
+}
+img{
+
+}
+.card-header{
+    text-align: center;
+}
+form{
+margin-top: 4rem;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+}
+label{
+    color: white;
+}
+button{
+    margin:0 auto;
+    display:block;
+    margin-top: 2rem;
+}
+p{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 4rem;
+    color: hsla(260,29%,36%,1);
+}
+#TC_Date{
+    position: relative;
+}
+::ng-deep .mat-datepicker-toggle {
+    background-color: red;
+    /* margin-left: -15rem; */
+    position: absolute;
+    /* top:0px; */
+    right:0;
+
+}
+
+
+
+.row{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); */
+    /* margin-top: 4 rem; */
+    padding-bottom: .1rem;
+    /* border:1px solid rgba(128, 128, 128, 0.408); */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5); */
+
+}
+td{
+    background-color: white;
+}
+thead{
+    background-color: skyblue;
+}
+.flex{
+    /* margin:2rem 2rem -1rem 3rem; */
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding-top: 1rem;
+
+
+}
+i:hover{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transform: scale(1.2 ,1.2);
+    transition: 0s;
+}
+
+input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+h2{
+    font-size: 2rem;
+    margin:0 0 0 0 !important;
+}
+@media screen and (max-width:769px)  and (min-width:530px)
+{
+    .card{
+        width:90%;
+        /* margin-top: 10rem !important; */
+    }
+}
+
+@media screen and (max-width:530px)  and (min-width:450px)
+{
+   .card{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   input{
+    height:2rem
+   }
+   h1{
+    font-size: 1.5rem;
+   }
+}
+@media screen and (max-width:450px)  and (min-width:301px)
+{
+   .card{
+    width:90%;
+    /* margin-top: 10rem !important; */
+   }
+   input{
+    height:2rem
+   }
+   h1{
+    font-size: 1.5rem;
+   }
+}
+
+@media screen and (max-width:300px)
+{
+    .card{
+        width:90%;
+        /* margin-top: 12rem !important; */
+       }
+       input{
+        height:2rem
+       }
+       h1{
+        font-size: 1.3rem;
+       }
+     .card{
+        padding: 10px 20px 10px 20px;
+
+     }  
+     h2{
+        font-size: 1.1rem;
+     }
+}
+@media screen and (max-width:1000px) and (min-width:768px)
+{
+  .card{
+    width: 700px;
+    /* margin-top: 6rem !important; */
+
+  }
+}
+@media (max-width:1270px) and (min-width:1000px)
+{
+  .card{
+    /* margin-top: 6rem !important; */
+
+  }
+   input{
+    height:2rem;
+
+   }
+   h1{
+    font-size: 2rem;
+   }
+   h2{
+    font-size: 1.5rem;
+   }
+}

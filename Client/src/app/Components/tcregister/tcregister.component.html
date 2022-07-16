@@ -1,0 +1,72 @@
+
+  
+  
+  <div class="container">
+
+    <div class="logo">
+      <img src="https://rspsmtr.com/wp-content/uploads/2022/02/rsps_logo-removebg.png" height="120" >
+      <h2>Ramanlal Shorawala Public School</h2>
+      <h4 style="text-align: center;">Maholi Road , Mathura</h4>
+    </div>
+    <div class="row">
+      
+       <div class="col-md-4">
+       
+        <div class="card">
+            <div class="card-header">
+                <h1>Transfer Certificate </h1>
+
+            </div>
+            <form [formGroup]="TCForm" (ngSubmit)="submit()" class="row">
+                <div class="col-md-4">
+                    <label for="studentName" class="form-label"> Student Name</label>
+                    <input formControlName="studentName" type="text" class="form-control" id="studentName" >
+                  </div>
+                  <div class="col-md-4">
+                    <label for="fatherName" class="form-label">Father Name</label>
+                    <input formControlName="fatherName" type="text" class="form-control" id="fatherName" >
+                  </div>
+                  <div class="col-md-4">
+                    <label for="motherName" class="form-label">Mother Name</label>
+                    <input formControlName="motherName" type="text" class="form-control" id="motherName" >
+                  </div>
+                  <div class="col-md-4">
+                    <label for="class" class="form-label">Class</label>
+                    <input formControlName="class" type="text" class="form-control" id="class" >
+                  </div>
+
+                  <div class="col-md-4">
+                    
+                    <label for="DOB" class="form-label">DOB</label>
+                    <input formControlName="DOB" type="date" class="form-control" id="DOB" >
+                  </div>
+                 
+                  <div class="col-md-4" >
+                    <label for="TC_No" class="form-label">TC No</label>
+                    <input formControlName="TC_No" type="text" class="form-control" id="TC_No" >
+                  </div>
+                
+                  <div class="col-md-4" >
+                    <label for="session" class="form-label">Session</label>
+                    <input formControlName="session" type="text" class="form-control" id="session" >
+                  </div>
+                  <div class="col-md-4" >
+                    <label for="admission_No" class="form-label">Admission No</label>
+                    <input formControlName="admission_No" type="text" class="form-control" id="admission_No" >
+                  </div>
+
+                  <div class="col-md-4" >
+                    <label for="uploadTC" class="form-label">Upload TC</label>
+                    <input formControlName="uploadTC" src={{imageSrc}} type="file" class="form-control" id="uploadTC" (change)="selectFile($event)">
+                   <!-- <button (click)="postFile()"></button> -->
+                  </div>
+                  <div  class="m-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                  </div>
+            </form>
+        </div>
+       </div>
+    </div>
+  </div> 
+

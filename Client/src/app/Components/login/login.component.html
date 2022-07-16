@@ -1,0 +1,75 @@
+<!-- <div class="mainPage m-0">
+    <div *ngIf="showFlash" class="alert alert-success alert-dismissible fade show" role="alert">
+      <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+      <strong>Successfully Logged In!</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div *ngIf="showFlashError" class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Error !!</strong>&nbsp;{{errorMessage}}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+   -->
+  
+    <!-- <div class="container  " >
+      <div class="formcontainer col-md-4 col-12" style="background-color: blue;">
+          <img id="logo" src="data:image/png;base64,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">
+          <p>LOGIN</p>
+          <form id="myForm" #loginForm="ngForm" (ngSubmit)="login()">
+          
+              <input type="text" [(ngModel)]="model.username" placeholder="Username"  name="username"><br><br>
+              <input type="password" [(ngModel)]="model.password" placeholder="Password"  name="password"><br><br>
+              <button >Login</button>
+          </form>
+      </div>
+  
+      <div class="about col-md-8" style="background-color: yellow;" >
+          <img id="image" src="https://www.pngmart.com/files/8/Inventory-PNG-File.png" >
+          
+      </div>
+    </div>
+     -->
+  
+    <!-- <div class="main">
+      <div class="left" >
+        <div class="formcontainer" >
+          <img id="logo"  src="../images/utkrantiLogo.png">
+          <p>LOGIN</p>
+          <form id="myForm" #loginForm="ngForm" (ngSubmit)="login()">
+          
+              <input type="text" [(ngModel)]="model.username" placeholder="Username"  name="username"><br><br>
+              <input type="password" [(ngModel)]="model.password" placeholder="Password"  name="password"><br><br>
+              <button >Login</button>
+          </form>
+      </div>
+      </div>
+      <div class="right" >
+        <img id="image" src="https://images.pexels.com/photos/68562/pexels-photo-68562.jpeg" >
+      </div>
+    </div>
+  </div> -->
+  
+  
+  <div class="container">
+    <div class="row">
+      <p>Transfer Certificate</p>
+       <div class="col-md-6">
+        <div class="card">
+            <div class="text-center">
+                <h1>Login</h1>
+
+            </div>
+            <form [formGroup]="loginForm" (ngSubmit)="login()">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">UserName</label>
+                    <input formControlName="username" type="text" class="form-control" id="formGroupExampleInput" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Password</label>
+                    <input formControlName="password" type="password" class="form-control" id="formGroupExampleInput2" >
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+       </div>
+    </div>
+  </div> 

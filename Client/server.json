@@ -1,0 +1,254 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signUpUsers": [
+    {
+      "username": "hello001",
+      "password": "$2a$10$JvzMws9Qutq2cWwCDXaF8uom.lwsHGqNCRWzs1iDpPv4qlhAmqBE.",
+      "id": 12
+    },
+    {
+      "username": "radha",
+      "password": "$2a$10$gEifaIZo30tNwKWIbbWF7.CPecPr4dZ5LhV9WK07s5E6bELqXTpSy",
+      "id": 13
+    }
+  ],
+  "TC": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "studentNAme": "aanya",
+      "fatherName": "dev",
+      "motherName": "sweta",
+      "DOB": "2017-08-17",
+      "class": "ukg",
+      "TC_No": "1",
+      "session": "2011-2021",
+      "admission_No": "1000",
+      "TC_Date": "16/07/2022",
+      "id": 3
+    },
+    {
+      "studentNAme": "fcvhbj",
+      "fatherName": "cfgvhbjn",
+      "motherName": "fcgvhbjn",
+      "DOB": "9999-09-09",
+      "class": "kfcgvhbj",
+      "TC_No": "drftgyhuji",
+      "session": "edrft",
+      "admission_No": "dfgthyju",
+      "TC_Date": "16/07/2022",
+      "id": 4
+    },
+    {
+      "studentNAme": "cfgvhbjn",
+      "fatherName": "cfgvhbjnkm",
+      "motherName": "cfgvbhnjkm",
+      "DOB": "9999-09-09",
+      "class": "fcggvbhjn",
+      "TC_No": "dfrgtyhuji",
+      "session": "dfcgtyhujik",
+      "admission_No": "fcgvhbjnk",
+      "uploadDocument": "../TC_image/undefined",
+      "TC_Date": "16/07/2022",
+      "id": 5
+    },
+    {
+      "studentNAme": "fcgvbhj",
+      "fatherName": "fcgvhbjnk",
+      "motherName": "cfgvhbjn",
+      "DOB": "9999-09-09",
+      "class": "kfcgvhbjnk",
+      "TC_No": "dxfcgvhbj",
+      "session": "drfghju",
+      "admission_No": "fcgvbhjnk",
+      "uploadDocument": "../TC_image/[object FormData]",
+      "TC_Date": "16/07/2022",
+      "id": 6
+    },
+    {
+      "studentNAme": "fcghjbnkm",
+      "fatherName": "gvhbjnkl",
+      "motherName": "gvhbjnk",
+      "DOB": "9999-09-09",
+      "class": "cgvbhnj",
+      "TC_No": "frgthjui",
+      "session": "kftgyhuij",
+      "admission_No": "ftgyhuij",
+      "uploadDocument": {},
+      "TC_Date": "16/07/2022",
+      "id": 7
+    },
+    {
+      "studentNAme": "fcgvhjbk",
+      "fatherName": "cfgvhbj",
+      "motherName": "cvgbhnj",
+      "DOB": "9999-09-09",
+      "class": "fghbj",
+      "TC_No": "fgyhuji",
+      "session": "tfyui",
+      "admission_No": "ftgyhuji",
+      "uploadDocument": "../TC_image/[object File]",
+      "TC_Date": "16/07/2022",
+      "id": 8
+    },
+    {
+      "studentNAme": "fghbjk",
+      "fatherName": "fgvhbjnkm",
+      "motherName": "cfgvhbjn",
+      "DOB": "9999-09-09",
+      "class": "rfghjk",
+      "TC_No": "cfvgbhnj",
+      "session": "cfgvbhjnk",
+      "admission_No": "fcgvhbjnkl",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 9
+    },
+    {
+      "studentNAme": "fcghvjb",
+      "fatherName": "fcghbjkl",
+      "motherName": "dxfcgvhjkxdcf",
+      "DOB": "9999-09-09",
+      "class": "vghbjxdfcgvhb",
+      "TC_No": "dxfgthyuji",
+      "session": "edrtfgyuhij",
+      "admission_No": "edrtfyguhij",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 10
+    },
+    {
+      "studentNAme": "ctfvgbhnjmk",
+      "fatherName": "fcgvbhnjk",
+      "motherName": "lfcgvhb",
+      "DOB": "9999-09-09",
+      "class": "jnkgfvhjbk",
+      "TC_No": "fgvbhnjk",
+      "session": "fcgvbhjnk",
+      "admission_No": "fcgvhbjnk",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 11
+    },
+    {
+      "studentNAme": "vghbnj",
+      "fatherName": "fvgbhnjmk",
+      "motherName": "vghbnjm",
+      "DOB": "9999-09-09",
+      "class": "gbhnj",
+      "TC_No": "fcvgbhnj",
+      "session": "cfvghj",
+      "admission_No": "ygvhjk",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 12
+    },
+    {
+      "studentNAme": "gfhjbkn",
+      "fatherName": "vbnm",
+      "motherName": "ghbjn",
+      "DOB": "9999-09-09",
+      "class": "vghbjn",
+      "TC_No": "fvghyuji",
+      "session": "cfvghbjnk",
+      "admission_No": "cfgthju",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "studentNAme": "cfgvbhjnm",
+      "fatherName": "cfvgbhnjmk",
+      "motherName": "cfvgbhn",
+      "DOB": "2022-09-09",
+      "class": "jdcfvgbhnj",
+      "TC_No": "fvgybhnj",
+      "session": "vgbhnjmk",
+      "admission_No": "vgbhjnkml",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 15
+    },
+    {
+      "studentNAme": "fgvbhjnmk",
+      "fatherName": "cfgvhbjnkm",
+      "motherName": "cfgvbhjnmk",
+      "DOB": "9999-09-09",
+      "class": "dcfvgbhnjkm",
+      "TC_No": " vbnhjmk",
+      "session": "fgvbhnjmk",
+      "admission_No": " fgbhnj",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 16
+    },
+    {
+      "studentNAme": "dxfcgvhbjnXDFCGVHBJ",
+      "fatherName": "erdrftghj",
+      "motherName": "dcfvgbhjn",
+      "DOB": "9999-09-09",
+      "class": "xedrftghyj",
+      "TC_No": "drftgyhuji",
+      "session": "dcfvgbhjn",
+      "admission_No": "dfrghj",
+      "uploadDocument": {},
+      "TC_Date": "16/07/2022",
+      "id": 17
+    },
+    {
+      "studentNAme": "sweta",
+      "fatherName": "ashok",
+      "motherName": "madhu",
+      "DOB": "9999-12-08",
+      "class": "4",
+      "TC_No": "12",
+      "session": "2011-2022",
+      "admission_No": "109",
+      "uploadDocument": {},
+      "TC_Date": "16/07/2022",
+      "id": 18
+    },
+    {
+      "studentNAme": "fgvbhjnkm",
+      "fatherName": "dcfgvbhjn",
+      "motherName": "edrftgyh",
+      "DOB": "2022-07-07",
+      "class": "sedrftgyhu",
+      "TC_No": "dfcgvhbjk",
+      "session": "2011-2022",
+      "admission_No": "100",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 19
+    },
+    {
+      "studentNAme": "gvbhjnkm",
+      "fatherName": "werdtfgyhuj",
+      "motherName": "wertyhu",
+      "DOB": "9999-09-09",
+      "class": "qwesrdftgyhu",
+      "TC_No": "drftgyhuji",
+      "session": "esdrtfgyhu",
+      "admission_No": "drtftgyhuji",
+      "uploadDocument": "../TC_image/1.jpg",
+      "TC_Date": "16/07/2022",
+      "id": 20
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
