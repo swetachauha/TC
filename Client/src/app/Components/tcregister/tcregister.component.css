@@ -1,6 +1,6 @@
 .container{
-    display: flex;
-  justify-content: center;
+    height: fit-content;
+    overflow-x: hidden;
 }
 .logo{
     margin-top:.5rem;
@@ -14,14 +14,10 @@ h2{
     border: none;
     width: 1200px;
     padding: 10px 40px 10px 40px;
-    position: absolute;
     background: hsla(205,46%,30%,1);
     background: linear-gradient(90deg,hsla(205,46%,30%,1)0%,hsla(260,29%,36%,1)100%);
-    
-    left: 50%;
-    top: 55%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
         /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
         
     /* top:0;
@@ -105,4 +101,30 @@ p{
    h1{
     font-size: 2rem;
    }
+   
+}
+@media screen and (max-width:1400px)  and (min-width:768px)
+{
+.card{
+    width: 95%;
+}
+h2{
+    font-size: 1.8rem;
+}
+}
+@media screen and (max-width:767px)  
+{
+.card{
+   
+    width: 85%;
+}
+h2{
+    font-size: 1.5rem;
+}
+}
+@media screen and (min-width:767px)  
+{
+    .card{
+        margin-top: 5rem;
+    }
 }

@@ -60,17 +60,17 @@ export class TCRegisterComponent implements OnInit {
 
   selectFile(event:any)
   {
-    this.file=<File>event.target.files[0];
-    console.log("file",this.file);
-    // if(event.target.files[0])
-    // {
-    //   let reader=new FileReader();
-    //   reader.readAsDataURL(event.target.files[0]);
-    //   reader.onload=(event:any)=>{
-    //     this.imageSrc=event.target.result;
-    //   }
+    // this.file=<File>event.target.files[0];
+    // console.log("file",this.file);
+    if(event.target.files[0])
+    {
+      let reader=new FileReader();
+      reader.readAsDataURL(event.target.files[0]);
+      reader.onload=(event:any)=>{
+        this.imageSrc=event.target.result;
+      }
     }
-
+  }
   // submit()
   // {
   //   var myFormData = new FormData();
@@ -102,10 +102,10 @@ submit()
        alert("Please fill all the fields");
        
      }
-     else if(!this.file?.name)
-     {
-      alert("Please upload TC");
-     }
+    //  else if(!this.file?.name)
+    //  {
+    //   alert("Please upload TC");
+    //  }
             else if(jsonpresent===this.TCForm.value.TC_No)
             {
              alert("TC No already present ");
@@ -114,8 +114,8 @@ submit()
             else  if (jsonpresent!==this.TCForm.value.TC_No){
               const endpoint = '../TC_image';
              let uploadDocument=new FormData();
-              const image=uploadDocument.append("file",this.file,this.file.name);
-              console.log("image",image);
+              // const image=uploadDocument.append("file",this.file,this.file.name);
+              // console.log("image",image);
 
              var data={
               'studentNAme':this.TCForm.value.studentName,
@@ -126,8 +126,8 @@ submit()
               'TC_No':this.TCForm.value.TC_No,
               'session':this.TCForm.value.session,
               'admission_No':this.TCForm.value.admission_No,
-              'uploadDocument':'../TC_image/'+this.file?.name,
-              // 'uploadDocument':uploadDocument,
+              // 'uploadDocument':'../TC_image/'+this.file?.name,
+              'uploadDocument':this.imageSrc,
               'TC_Date':this.todayDate
              }
             

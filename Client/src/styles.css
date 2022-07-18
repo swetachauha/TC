@@ -4,5 +4,6 @@ body{
     /* height: fit-content; */
     padding-bottom: 4rem !important;
     padding-top: 1rem;
+    overflow-x: hidden;
     
 }

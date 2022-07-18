@@ -1,5 +1,6 @@
 .body{
     overflow-y: scroll;
     height: fit-content;
+    overflow-x: hidden;
 
 }
