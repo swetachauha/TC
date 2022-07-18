@@ -102,23 +102,11 @@ download()
     // alert(this.getSearchStudent.uploadDocument);
     return this.http.get('http://localhost:3333/TC', {responseType: 'blob'}).subscribe(res=>
     {
-      // let blob:any = new Blob([res], { type: 'image/jpg; charset=utf-8' });
-			// const url = window.URL.createObjectURL(blob);
-			// //window.open(url);
-			// saveAs(blob, `${{'uploadDocument':this.getSearchStudent.uploadDocument}}`);
-			// }), (error: any) => console.log('Error downloading the file'),
-			// () => console.info('File downloaded successfully');
-
-      const reader = new FileReader();
- reader.readAsDataURL(this.getSearchStudent.uploadDocument); //FileStream response from .NET core backend
- reader.onload = _event => {
-     url = reader.result; //url declared earlier
-     image.nativeElement.src = url; //image declared earlier
- };
       let blob:any = new Blob([res], { type: 'image/jpg; charset=utf-8' });
 			const url = window.URL.createObjectURL(blob);
 			//window.open(url);
-			saveAs(blob, `${{'uploadDocument':this.getSearchStudent.uploadDocument}}`);
+
+			saveAs(this.getSearchStudent.uploadDocument);
 			}), (error: any) => console.log('Error downloading the file'),
 			() => console.info('File downloaded successfully');
 	
